@@ -29,6 +29,14 @@
                         </tr>
                     </thead>
                     <tbody>
+                        {{range .}}
+                        <tr>
+                            <td>{{.Nome}}</td>
+                            <td>{{.Descricao}}</td>
+                            <td>{{.Preco}}</td>
+                            <td>{{.Quantidade}}</td>
+                        </tr>
+                        {{end}}
                         <tr>
                             <td>Camiseta</td>
                             <td>Bem bonita</td>
